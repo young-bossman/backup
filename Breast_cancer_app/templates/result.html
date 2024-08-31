@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prediction Result</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+        }
+        .container {
+            width: 80%;
+            background-color: #ffffff;
+            padding: 2em;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        h1 {
+            margin-bottom: 1em;
+        }
+        .result {
+            font-size: 1.5em;
+            margin-bottom: 1em;
+            white-space: pre-line;
+        }
+        a {
+            text-decoration: none;
+            color: #007bff;
+            margin-top: 1em;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Prediction Result</h1>
+        <div class="result">{{ result }}</div>
+        <a href="/" class="back-link">Back to Home</a>
+    </div>
+</body>
+</html>
